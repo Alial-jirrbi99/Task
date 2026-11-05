@@ -1,5 +1,6 @@
 # Responsive design implementation
-_Exported on 11/4/2026 at 15:24:38 GMT+2 from Cursor (3.17.8)_
+
+_Exported on 11/5/2026 at 15:22:51 GMT+2 from Cursor (3.17.8)_
 
 ---
 
@@ -7,9 +8,9 @@ _Exported on 11/4/2026 at 15:24:38 GMT+2 from Cursor (3.17.8)_
 
 Implement the attached design as accurately as possible. Use the provided CSS code as a reference. Write all JSX code in App.jsx and all styling in App.css. Match the reference image as closely as possible, ensure the design is fully responsive, and avoid changing unrelated files or functionality.
 
-/* Main */
+/_ Main _/
 
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -21,16 +22,15 @@ min-height: 736px;
 
 background: #FAF8FF;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -40,16 +40,14 @@ width: 688px;
 max-width: 720px;
 height: 1820px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Aside - Interactive State Switcher Preview Bar:margin _/
 
-/* Aside - Interactive State Switcher Preview Bar:margin */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -58,17 +56,15 @@ padding: 0px 0px 24px;
 width: 688px;
 height: 64px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Aside - Interactive State Switcher Preview Bar _/
 
-/* Aside - Interactive State Switcher Preview Bar */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -83,16 +79,15 @@ background: #F2F3FF;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 border-radius: 12px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -102,16 +97,14 @@ gap: 4px;
 width: 150.56px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -120,29 +113,26 @@ padding: 0px;
 width: 13.5px;
 height: 13.5px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 13.5px;
 height: 13.5px;
 
 background: #0037B0;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -151,14 +141,12 @@ padding: 0px;
 width: 133.06px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 133.06px;
 height: 16px;
@@ -168,22 +156,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 16px;
-/* identical to box height, or 133% */
+/_ identical to box height, or 133% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -196,16 +182,14 @@ gap: 4px;
 width: 320.81px;
 height: 24px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -219,13 +203,12 @@ background: #0037B0;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 38px;
 height: 16px;
@@ -235,23 +218,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 16px;
-/* identical to box height, or 133% */
+/_ identical to box height, or 133% _/
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #FFFFFF;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -264,13 +245,12 @@ height: 24px;
 background: #EAEDFF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 61.45px;
 height: 16px;
@@ -280,23 +260,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 16px;
-/* identical to box height, or 133% */
+/_ identical to box height, or 133% _/
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -309,13 +287,12 @@ height: 24px;
 background: #EAEDFF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 42.69px;
 height: 16px;
@@ -325,23 +302,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 16px;
-/* identical to box height, or 133% */
+/_ identical to box height, or 133% _/
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -354,13 +329,12 @@ height: 24px;
 background: #EAEDFF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 3;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 38.67px;
 height: 16px;
@@ -370,23 +344,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 16px;
-/* identical to box height, or 133% */
+/_ identical to box height, or 133% _/
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Page Header & Context:margin _/
 
-/* Page Header & Context:margin */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -395,17 +367,15 @@ padding: 0px 0px 24px;
 width: 688px;
 height: 138px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Page Header & Context _/
 
-/* Page Header & Context */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -415,17 +385,15 @@ gap: 4px;
 width: 688px;
 height: 114px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Nav - Breadcrumb navigation _/
 
-/* Nav - Breadcrumb navigation */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -435,17 +403,15 @@ gap: 4px;
 width: 688px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -454,14 +420,12 @@ padding: 0px;
 width: 109.89px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 109.89px;
 height: 16px;
@@ -471,22 +435,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 16px;
-/* identical to box height, or 133% */
+/_ identical to box height, or 133% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -495,29 +457,26 @@ padding: 0px;
 width: 4.32px;
 height: 7px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 4.32px;
 height: 7px;
 
 background: #434655;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -526,14 +485,12 @@ padding: 0px;
 width: 82.36px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 82.36px;
 height: 16px;
@@ -543,22 +500,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 16px;
-/* identical to box height, or 133% */
+/_ identical to box height, or 133% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -567,29 +522,26 @@ padding: 0px;
 width: 4.32px;
 height: 7px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 3;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 4.32px;
 height: 7px;
 
 background: #434655;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -598,14 +550,12 @@ padding: 0px;
 width: 87.13px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 4;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 87.13px;
 height: 16px;
@@ -615,22 +565,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 16px;
-/* identical to box height, or 133% */
+/_ identical to box height, or 133% _/
 display: flex;
 align-items: center;
 
 color: #0037B0;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -640,17 +588,15 @@ gap: 8px;
 width: 688px;
 height: 94px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -660,16 +606,14 @@ gap: 4px;
 width: 554.61px;
 height: 62px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Heading 1 _/
 
-/* Heading 1 */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -678,15 +622,13 @@ padding: 0px;
 width: 554.61px;
 height: 36px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 135.7px;
 height: 36px;
@@ -696,23 +638,21 @@ font-style: normal;
 font-weight: 700;
 font-size: 28px;
 line-height: 36px;
-/* identical to box height, or 129% */
+/_ identical to box height, or 129% _/
 display: flex;
 align-items: center;
 letter-spacing: -0.7px;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -721,15 +661,13 @@ padding: 0px;
 width: 554.61px;
 height: 22px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 554.61px;
 height: 22px;
@@ -739,22 +677,20 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+/_ identical to box height, or 157% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Background+Shadow _/
 
-/* Background+Shadow */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -768,13 +704,12 @@ background: #DBE1FF;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 border-radius: 9999px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Background */
+/_ Background _/
 
 width: 8px;
 height: 8px;
@@ -782,15 +717,14 @@ height: 8px;
 background: #0051D5;
 border-radius: 9999px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -799,14 +733,12 @@ padding: 0px;
 width: 197.34px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 197.34px;
 height: 16px;
@@ -816,35 +748,31 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 16px;
-/* identical to box height, or 133% */
+/_ identical to box height, or 133% _/
 display: flex;
 align-items: center;
 
 color: #00174B;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Global Form */
+/_ Global Form _/
 
 width: 688px;
 height: 1618px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Section - Card 1: Basic Information _/
 
-/* Section - Card 1: Basic Information */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -861,10 +789,9 @@ background: #FFFFFF;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 border-radius: 12px;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -875,17 +802,15 @@ gap: 412.52px;
 width: 640px;
 height: 40px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -895,16 +820,14 @@ gap: 8px;
 width: 179.5px;
 height: 32px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Background _/
 
-/* Background */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -917,15 +840,14 @@ height: 32px;
 background: #DCE1FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -934,29 +856,26 @@ padding: 0px;
 width: 13.5px;
 height: 15px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 13.5px;
 height: 15px;
 
 background: #001551;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Heading 2 _/
 
-/* Heading 2 */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -965,14 +884,12 @@ padding: 0px;
 width: 139.5px;
 height: 26px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 139.5px;
 height: 26px;
@@ -982,22 +899,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 26px;
-/* identical to box height, or 144% */
+/_ identical to box height, or 144% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1006,14 +921,12 @@ padding: 0px;
 width: 47.98px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 47.98px;
 height: 16px;
@@ -1023,22 +936,20 @@ font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+/_ identical to box height, or 145% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1048,17 +959,15 @@ gap: 16px;
 width: 640px;
 height: 467px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Internship ID _/
 
-/* Internship ID */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1068,17 +977,15 @@ gap: 4px;
 width: 640px;
 height: 86px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Label _/
 
-/* Label */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1087,15 +994,13 @@ padding: 0px;
 width: 640px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Internship ID */
+/_ Internship ID _/
 
 width: 640px;
 height: 20px;
@@ -1105,23 +1010,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1131,17 +1034,15 @@ isolation: isolate;
 width: 640px;
 height: 42px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -1154,17 +1055,16 @@ height: 42px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 z-index: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -1173,16 +1073,14 @@ padding: 0px;
 width: 528px;
 height: 22px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1191,16 +1089,14 @@ padding: 0px;
 width: 513px;
 height: 22px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1210,15 +1106,13 @@ width: 513px;
 height: 22px;
 overflow: scroll;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* 1042 */
+/_ 1042 _/
 
 width: 513px;
 height: 22px;
@@ -1228,23 +1122,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+/_ identical to box height, or 157% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Rectangle:align-stretch _/
 
-/* Rectangle:align-stretch */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -1253,15 +1145,13 @@ padding: 0px;
 width: 15px;
 height: 22px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Rectangle */
+/_ Rectangle _/
 
 width: 15px;
 min-width: 15px;
@@ -1269,16 +1159,15 @@ height: 22px;
 
 opacity: 0;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -1290,15 +1179,13 @@ right: 0px;
 top: 0px;
 bottom: 0px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 z-index: 1;
 
-
-/* Text */
+/_ Text _/
 
 width: 52.25px;
 height: 16px;
@@ -1308,22 +1195,20 @@ font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+/_ identical to box height, or 145% _/
 display: flex;
 align-items: center;
 
 color: #747686;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1332,15 +1217,13 @@ padding: 0px;
 width: 640px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* This ID links the task to the academic internship registry records. */
+/_ This ID links the task to the academic internship registry records. _/
 
 width: 640px;
 height: 16px;
@@ -1350,23 +1233,21 @@ font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+/_ identical to box height, or 145% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Task Title _/
 
-/* Task Title */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1376,17 +1257,15 @@ gap: 4px;
 width: 640px;
 height: 66px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Label _/
 
-/* Label */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1395,15 +1274,13 @@ padding: 0px;
 width: 640px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Title * */
+/_ Title _ \*/
 
 width: 640px;
 height: 20px;
@@ -1413,23 +1290,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -1442,16 +1317,15 @@ height: 42px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1461,14 +1335,12 @@ width: 608px;
 height: 22px;
 overflow: scroll;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
-
-/* Develop Login Page with Validation & Security */
+/_ Develop Login Page with Validation & Security _/
 
 width: 608px;
 height: 22px;
@@ -1478,23 +1350,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+/_ identical to box height, or 157% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Description _/
 
-/* Description */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1504,17 +1374,15 @@ gap: 4px;
 width: 640px;
 height: 113px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Label _/
 
-/* Label */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1523,15 +1391,13 @@ padding: 0px;
 width: 640px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Description & Technical Requirements */
+/_ Description & Technical Requirements _/
 
 width: 640px;
 height: 20px;
@@ -1541,23 +1407,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Textarea _/
 
-/* Textarea */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -1571,16 +1435,15 @@ overflow: scroll;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1589,14 +1452,12 @@ padding: 0px;
 width: 608px;
 height: 44px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
-
-/* Build a responsive login interface using Tailwind CSS with client/server validation, email formatting, and secure password standards. */
+/_ Build a responsive login interface using Tailwind CSS with client/server validation, email formatting, and secure password standards. _/
 
 width: 608px;
 height: 44px;
@@ -1606,23 +1467,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* or 157% */
+/_ or 157% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Row: Category, Difficulty, Status _/
 
-/* Row: Category, Difficulty, Status */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -1633,17 +1492,15 @@ gap: 16px;
 width: 640px;
 height: 66px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 3;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1653,16 +1510,14 @@ gap: 4px;
 width: 202.67px;
 height: 66px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Label _/
 
-/* Label */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1671,15 +1526,13 @@ padding: 0px;
 width: 202.67px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Category */
+/_ Category _/
 
 width: 202.67px;
 height: 20px;
@@ -1689,23 +1542,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -1718,16 +1569,15 @@ height: 42px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1737,14 +1587,12 @@ width: 170.67px;
 height: 22px;
 overflow: scroll;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
-
-/* Frontend Development */
+/_ Frontend Development _/
 
 width: 170.67px;
 height: 22px;
@@ -1754,23 +1602,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+/_ identical to box height, or 157% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1780,16 +1626,14 @@ gap: 4px;
 width: 202.67px;
 height: 66px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 1;
 
+/_ Label _/
 
-/* Label */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1798,15 +1642,13 @@ padding: 0px;
 width: 202.67px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Difficulty */
+/_ Difficulty _/
 
 width: 202.67px;
 height: 20px;
@@ -1816,23 +1658,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Options _/
 
-/* Options */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -1845,16 +1685,15 @@ height: 37px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1863,14 +1702,12 @@ padding: 1px 0px;
 width: 150.67px;
 height: 17px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
-
-/* Intermediate */
+/_ Intermediate _/
 
 width: 150.67px;
 height: 15px;
@@ -1880,23 +1717,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 15px;
-/* identical to box height, or 107% */
+/_ identical to box height, or 107% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1906,16 +1741,14 @@ gap: 4px;
 width: 202.67px;
 height: 66px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 flex-grow: 1;
 
+/_ Label _/
 
-/* Label */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1924,15 +1757,13 @@ padding: 0px;
 width: 202.67px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Initial Status */
+/_ Initial Status _/
 
 width: 202.67px;
 height: 20px;
@@ -1942,23 +1773,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Options _/
 
-/* Options */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -1971,16 +1800,15 @@ height: 37px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -1989,14 +1817,12 @@ padding: 1px 0px;
 width: 150.67px;
 height: 17px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
-
-/* TODO */
+/_ TODO _/
 
 width: 150.67px;
 height: 15px;
@@ -2006,23 +1832,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 15px;
-/* identical to box height, or 107% */
+/_ identical to box height, or 107% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Row: Dates _/
 
-/* Row: Dates */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -2033,17 +1857,15 @@ gap: 16px;
 width: 640px;
 height: 72px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 4;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2053,16 +1875,14 @@ gap: 4px;
 width: 312px;
 height: 68px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Label _/
 
-/* Label */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2071,15 +1891,13 @@ padding: 0px;
 width: 312px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Start Date */
+/_ Start Date _/
 
 width: 312px;
 height: 20px;
@@ -2089,23 +1907,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -2118,16 +1934,15 @@ height: 44px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -2136,16 +1951,14 @@ padding: 0px;
 width: 280px;
 height: 24px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2154,16 +1967,14 @@ padding: 0px;
 width: 262px;
 height: 24px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Paragraph _/
 
-/* Paragraph */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -2173,27 +1984,24 @@ gap: 1px;
 width: 67.65px;
 height: 24px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Spinbutton - Month → 04 */
+/_ Spinbutton - Month → 04 _/
 
 width: 13.25px;
 height: 9.45px;
 
 background: #131B2E;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 3.89px;
 height: 22px;
@@ -2203,33 +2011,30 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+/_ identical to box height, or 157% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Spinbutton - Day → 01 */
+/_ Spinbutton - Day → 01 _/
 
 width: 12.63px;
 height: 9.45px;
 
 background: #131B2E;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 3.89px;
 height: 22px;
@@ -2239,20 +2044,18 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+/_ identical to box height, or 157% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 3;
 flex-grow: 0;
 
-
-/* Spinbutton - Year → 2025 */
+/_ Spinbutton - Year → 2025 _/
 
 width: 28px;
 height: 22px;
@@ -2262,22 +2065,20 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+/_ identical to box height, or 157% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 4;
 flex-grow: 0;
 
+/_ Button menu _/
 
-/* Button menu */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2286,28 +2087,24 @@ padding: 2px;
 width: 18px;
 height: 18px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* image */
+/_ image _/
 
 width: 14px;
 height: 13.12px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2317,16 +2114,14 @@ gap: 4px;
 width: 312px;
 height: 68px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 1;
 
+/_ Label _/
 
-/* Label */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2335,15 +2130,13 @@ padding: 0px;
 width: 312px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Deadline */
+/_ Deadline _/
 
 width: 312px;
 height: 20px;
@@ -2353,23 +2146,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -2382,16 +2173,15 @@ height: 44px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -2400,16 +2190,14 @@ padding: 0px;
 width: 280px;
 height: 24px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2418,16 +2206,14 @@ padding: 0px;
 width: 262px;
 height: 24px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Paragraph _/
 
-/* Paragraph */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -2437,27 +2223,24 @@ gap: 1px;
 width: 67.26px;
 height: 24px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Spinbutton - Month → 04 */
+/_ Spinbutton - Month → 04 _/
 
 width: 13.25px;
 height: 9.45px;
 
 background: #131B2E;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 3.89px;
 height: 22px;
@@ -2467,33 +2250,30 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+/_ identical to box height, or 157% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Spinbutton - Day → 10 */
+/_ Spinbutton - Day → 10 _/
 
 width: 12.24px;
 height: 9.45px;
 
 background: #131B2E;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 3.89px;
 height: 22px;
@@ -2503,20 +2283,18 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+/_ identical to box height, or 157% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 3;
 flex-grow: 0;
 
-
-/* Spinbutton - Year → 2025 */
+/_ Spinbutton - Year → 2025 _/
 
 width: 28px;
 height: 22px;
@@ -2526,22 +2304,20 @@ font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 22px;
-/* identical to box height, or 157% */
+/_ identical to box height, or 157% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 4;
 flex-grow: 0;
 
+/_ Button menu _/
 
-/* Button menu */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2550,28 +2326,24 @@ padding: 2px;
 width: 18px;
 height: 18px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* image */
+/_ image _/
 
 width: 14px;
 height: 13.12px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Section - Card 2: Evaluation Criteria _/
 
-/* Section - Card 2: Evaluation Criteria */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2588,10 +2360,9 @@ background: #FFFFFF;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 border-radius: 12px;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -2604,17 +2375,15 @@ gap: 4px 401.52px;
 width: 640px;
 height: 40px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -2624,16 +2393,14 @@ gap: 8px;
 width: 190.5px;
 height: 32px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Background _/
 
-/* Background */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -2646,15 +2413,14 @@ height: 32px;
 background: #DBE1FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2663,29 +2429,26 @@ padding: 0px;
 width: 15px;
 height: 13.5px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 15px;
 height: 13.5px;
 
 background: #00174B;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2694,14 +2457,12 @@ padding: 0px;
 width: 150.5px;
 height: 26px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Heading 2 → Evaluation Criteria */
+/_ Heading 2 → Evaluation Criteria _/
 
 width: 150.5px;
 height: 26px;
@@ -2711,22 +2472,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 26px;
-/* identical to box height, or 144% */
+/_ identical to box height, or 144% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2735,14 +2494,12 @@ padding: 0px;
 width: 47.98px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 47.98px;
 height: 16px;
@@ -2752,22 +2509,20 @@ font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+/_ identical to box height, or 145% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2776,15 +2531,13 @@ padding: 0px;
 width: 640px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Define evaluation dimensions and percentage weights. Total must equal 100% to ensure academic grading equity. */
+/_ Define evaluation dimensions and percentage weights. Total must equal 100% to ensure academic grading equity. _/
 
 width: 640px;
 height: 20px;
@@ -2794,23 +2547,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 13px;
 line-height: 20px;
-/* identical to box height, or 154% */
+/_ identical to box height, or 154% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Criteria List Container _/
 
-/* Criteria List Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2820,17 +2571,15 @@ gap: 8px;
 width: 640px;
 height: 186px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Row 1 _/
 
-/* Row 1 */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -2843,16 +2592,15 @@ height: 54px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2861,16 +2609,14 @@ padding: 0px;
 width: 466.67px;
 height: 36px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -2883,16 +2629,15 @@ height: 36px;
 background: #FFFFFF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2902,14 +2647,12 @@ width: 434.67px;
 height: 20px;
 overflow: scroll;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
-
-/* Code Quality & Clean Architecture */
+/_ Code Quality & Clean Architecture _/
 
 width: 434.67px;
 height: 20px;
@@ -2919,23 +2662,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 13px;
 line-height: 20px;
-/* identical to box height, or 154% */
+/_ identical to box height, or 154% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Background _/
 
-/* Background */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -2948,15 +2689,14 @@ height: 21.45px;
 background: #FFFFFF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -2965,16 +2705,14 @@ padding: 0px;
 width: 83.16px;
 height: 9.45px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -2983,17 +2721,15 @@ padding: 0px;
 width: 83.16px;
 height: 9.45px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3002,16 +2738,14 @@ padding: 0px;
 width: 68.16px;
 height: 9.45px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -3021,30 +2755,27 @@ width: 68.16px;
 height: 9.45px;
 overflow: scroll;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 13.28px;
 height: 9.45px;
 
 background: #131B2E;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Rectangle:align-stretch _/
 
-/* Rectangle:align-stretch */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -3053,15 +2784,13 @@ padding: 0px;
 width: 15px;
 height: 9.45px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Rectangle */
+/_ Rectangle _/
 
 width: 15px;
 min-width: 15px;
@@ -3069,16 +2798,15 @@ height: 9.45px;
 
 opacity: 0;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3087,29 +2815,26 @@ padding: 0px;
 width: 8.84px;
 height: 7.46px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 8.84px;
 height: 7.46px;
 
 background: #747686;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -3121,15 +2846,14 @@ height: 38px;
 
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -3139,29 +2863,26 @@ padding: 0px;
 width: 13.33px;
 height: 15px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 13.33px;
 height: 15px;
 
 background: #BA1A1A;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Row 2 _/
 
-/* Row 2 */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -3174,16 +2895,15 @@ height: 54px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3192,16 +2912,14 @@ padding: 0px;
 width: 466.67px;
 height: 36px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -3214,16 +2932,15 @@ height: 36px;
 background: #FFFFFF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3233,14 +2950,12 @@ width: 434.67px;
 height: 20px;
 overflow: scroll;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
-
-/* Responsive UI & Cross-device Compatibility */
+/_ Responsive UI & Cross-device Compatibility _/
 
 width: 434.67px;
 height: 20px;
@@ -3250,23 +2965,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 13px;
 line-height: 20px;
-/* identical to box height, or 154% */
+/_ identical to box height, or 154% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Background _/
 
-/* Background */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -3279,15 +2992,14 @@ height: 21.41px;
 background: #FFFFFF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3296,16 +3008,14 @@ padding: 0px;
 width: 83.16px;
 height: 9.41px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -3314,17 +3024,15 @@ padding: 0px;
 width: 83.16px;
 height: 9.41px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3333,16 +3041,14 @@ padding: 0px;
 width: 68.16px;
 height: 9.41px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -3352,30 +3058,27 @@ width: 68.16px;
 height: 9.41px;
 overflow: scroll;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 12.96px;
 height: 9.41px;
 
 background: #131B2E;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Rectangle:align-stretch _/
 
-/* Rectangle:align-stretch */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -3384,15 +3087,13 @@ padding: 0px;
 width: 15px;
 height: 9.41px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Rectangle */
+/_ Rectangle _/
 
 width: 15px;
 min-width: 15px;
@@ -3400,16 +3101,15 @@ height: 9.41px;
 
 opacity: 0;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3418,29 +3118,26 @@ padding: 0px;
 width: 8.84px;
 height: 7.46px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 8.84px;
 height: 7.46px;
 
 background: #747686;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -3452,15 +3149,14 @@ height: 38px;
 
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -3470,29 +3166,26 @@ padding: 0px;
 width: 13.33px;
 height: 15px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 13.33px;
 height: 15px;
 
 background: #BA1A1A;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Row 3 _/
 
-/* Row 3 */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -3505,16 +3198,15 @@ height: 54px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3523,16 +3215,14 @@ padding: 0px;
 width: 466.67px;
 height: 36px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -3545,16 +3235,15 @@ height: 36px;
 background: #FFFFFF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3564,14 +3253,12 @@ width: 434.67px;
 height: 20px;
 overflow: scroll;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
-
-/* Technical Documentation & Unit Testing */
+/_ Technical Documentation & Unit Testing _/
 
 width: 434.67px;
 height: 20px;
@@ -3581,23 +3268,21 @@ font-style: normal;
 font-weight: 400;
 font-size: 13px;
 line-height: 20px;
-/* identical to box height, or 154% */
+/_ identical to box height, or 154% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Background _/
 
-/* Background */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -3610,15 +3295,14 @@ height: 21.41px;
 background: #FFFFFF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Input _/
 
-/* Input */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3627,16 +3311,14 @@ padding: 0px;
 width: 83.16px;
 height: 9.41px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -3645,17 +3327,15 @@ padding: 0px;
 width: 83.16px;
 height: 9.41px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3664,16 +3344,14 @@ padding: 0px;
 width: 68.16px;
 height: 9.41px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -3683,30 +3361,27 @@ width: 68.16px;
 height: 9.41px;
 overflow: scroll;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 12.9px;
 height: 9.41px;
 
 background: #131B2E;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Rectangle:align-stretch _/
 
-/* Rectangle:align-stretch */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -3715,15 +3390,13 @@ padding: 0px;
 width: 15px;
 height: 9.41px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Rectangle */
+/_ Rectangle _/
 
 width: 15px;
 min-width: 15px;
@@ -3731,16 +3404,15 @@ height: 9.41px;
 
 opacity: 0;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3749,29 +3421,26 @@ padding: 0px;
 width: 8.84px;
 height: 7.46px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 8.84px;
 height: 7.46px;
 
 background: #747686;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -3783,15 +3452,14 @@ height: 38px;
 
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -3801,29 +3469,26 @@ padding: 0px;
 width: 13.33px;
 height: 15px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 13.33px;
 height: 15px;
 
 background: #BA1A1A;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Controls: Add Criterion & Live Sum Display _/
 
-/* Controls: Add Criterion & Live Sum Display */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -3834,17 +3499,15 @@ gap: 325.45px;
 width: 640px;
 height: 48px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 3;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -3858,15 +3521,14 @@ height: 36px;
 background: #EAEDFF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -3875,29 +3537,26 @@ padding: 0px;
 width: 10.5px;
 height: 10.5px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 10.5px;
 height: 10.5px;
 
 background: #131B2E;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -3906,14 +3565,12 @@ padding: 0px;
 width: 95.88px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 95.88px;
 height: 20px;
@@ -3923,23 +3580,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Live Score Feedback Widget _/
 
-/* Live Score Feedback Widget */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -3952,15 +3607,14 @@ height: 32px;
 background: #7FFC97;
 border-radius: 9999px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -3969,29 +3623,26 @@ padding: 0px;
 width: 15px;
 height: 15px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 15px;
 height: 15px;
 
 background: #00501F;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -4001,16 +3652,14 @@ gap: 4px;
 width: 106.67px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4019,14 +3668,12 @@ padding: 0px;
 width: 35.28px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 35.28px;
 height: 20px;
@@ -4036,22 +3683,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #002109;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4060,14 +3705,12 @@ padding: 0px;
 width: 21px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 21px;
 height: 20px;
@@ -4077,22 +3720,20 @@ font-style: normal;
 font-weight: 700;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #002109;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4101,14 +3742,12 @@ padding: 0px;
 width: 42.39px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 42.39px;
 height: 20px;
@@ -4118,22 +3757,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #002109;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Section - Card 3: Attachments _/
 
-/* Section - Card 3: Attachments */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4150,10 +3787,9 @@ background: #FFFFFF;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 border-radius: 12px;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -4164,17 +3800,15 @@ gap: 252.5px;
 width: 640px;
 height: 40px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -4184,16 +3818,14 @@ gap: 8px;
 width: 339.52px;
 height: 32px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Background _/
 
-/* Background */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -4206,15 +3838,14 @@ height: 32px;
 background: #DCE1FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4223,29 +3854,26 @@ padding: 0px;
 width: 9.38px;
 height: 15px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 9.38px;
 height: 15px;
 
 background: #001551;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Heading 2 _/
 
-/* Heading 2 */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4254,14 +3882,12 @@ padding: 0px;
 width: 299.52px;
 height: 26px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 299.52px;
 height: 26px;
@@ -4271,22 +3897,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 18px;
 line-height: 26px;
-/* identical to box height, or 144% */
+/_ identical to box height, or 144% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4295,14 +3919,12 @@ padding: 0px;
 width: 47.98px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 47.98px;
 height: 16px;
@@ -4312,22 +3934,20 @@ font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+/_ identical to box height, or 145% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Drag & Drop Upload Zone _/
 
-/* Drag & Drop Upload Zone */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -4340,16 +3960,15 @@ height: 138px;
 background: #F2F3FF;
 border-radius: 12px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Margin _/
 
-/* Margin */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4358,16 +3977,14 @@ padding: 0px 0px 4px;
 width: 48px;
 height: 52px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Background _/
 
-/* Background */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -4380,15 +3997,14 @@ height: 48px;
 background: #DBE1FF;
 border-radius: 9999px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -4397,29 +4013,26 @@ padding: 0px;
 width: 25.67px;
 height: 18.67px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 25.67px;
 height: 18.67px;
 
 background: #0051D5;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -4428,14 +4041,12 @@ padding: 0px;
 width: 254.94px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 254.94px;
 height: 20px;
@@ -4445,23 +4056,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Margin _/
 
-/* Margin */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4470,16 +4079,14 @@ padding: 2px 0px 0px;
 width: 333.39px;
 height: 18px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -4488,14 +4095,12 @@ padding: 0px;
 width: 333.39px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 333.39px;
 height: 16px;
@@ -4505,23 +4110,21 @@ font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+/_ identical to box height, or 145% _/
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Upload List _/
 
-/* Upload List */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4531,17 +4134,15 @@ gap: 8px;
 width: 640px;
 height: 182px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 align-self: stretch;
 flex-grow: 0;
 
+/_ File Item 1 _/
 
-/* File Item 1 */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -4555,16 +4156,15 @@ height: 58px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -4574,16 +4174,14 @@ gap: 8px;
 width: 206.47px;
 height: 42px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Background _/
 
-/* Background */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -4596,15 +4194,14 @@ height: 36px;
 background: #FFDAD6;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4613,29 +4210,26 @@ padding: 0px;
 width: 16.67px;
 height: 16.67px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 16.67px;
 height: 16.67px;
 
 background: #93000A;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4645,16 +4239,14 @@ gap: 3px;
 width: 162.47px;
 height: 42px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4663,14 +4255,12 @@ padding: 0px;
 width: 162.47px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 162.47px;
 height: 20px;
@@ -4680,20 +4270,18 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 85.73px;
 height: 16px;
@@ -4703,22 +4291,20 @@ font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+/_ identical to box height, or 145% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -4730,15 +4316,14 @@ height: 30.67px;
 
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -4748,29 +4333,26 @@ padding: 0px;
 width: 11.67px;
 height: 11.67px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 11.67px;
 height: 11.67px;
 
 background: #747686;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ File Item 2 _/
 
-/* File Item 2 */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -4784,16 +4366,15 @@ height: 58px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -4803,16 +4384,14 @@ gap: 8px;
 width: 195.28px;
 height: 42px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Background _/
 
-/* Background */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -4825,15 +4404,14 @@ height: 36px;
 background: #DBE1FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4842,29 +4420,26 @@ padding: 0px;
 width: 16.67px;
 height: 13.33px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 16.67px;
 height: 13.33px;
 
 background: #00174B;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4874,16 +4449,14 @@ gap: 3px;
 width: 151.28px;
 height: 42px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -4892,14 +4465,12 @@ padding: 0px;
 width: 151.28px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 151.28px;
 height: 20px;
@@ -4909,20 +4480,18 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 91.23px;
 height: 16px;
@@ -4932,22 +4501,20 @@ font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+/_ identical to box height, or 145% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -4959,15 +4526,14 @@ height: 30.67px;
 
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -4977,29 +4543,26 @@ padding: 0px;
 width: 11.67px;
 height: 11.67px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 11.67px;
 height: 11.67px;
 
 background: #747686;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Simulated Active Upload Row _/
 
-/* Simulated Active Upload Row */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5012,16 +4575,15 @@ height: 42px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 2;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -5032,17 +4594,15 @@ gap: 400.67px;
 width: 624px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -5052,16 +4612,14 @@ gap: 4px;
 width: 143.66px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5070,29 +4628,26 @@ padding: 0px;
 width: 12px;
 height: 12px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 12px;
 height: 12px;
 
 background: #0051D5;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5101,14 +4656,12 @@ padding: 0px;
 width: 127.66px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 127.66px;
 height: 16px;
@@ -5118,22 +4671,20 @@ font-style: normal;
 font-weight: 600;
 font-size: 12px;
 line-height: 16px;
-/* identical to box height, or 133% */
+/_ identical to box height, or 133% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5142,14 +4693,12 @@ padding: 0px;
 width: 73.67px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 73.67px;
 height: 16px;
@@ -5159,20 +4708,18 @@ font-style: normal;
 font-weight: 600;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+/_ identical to box height, or 145% _/
 display: flex;
 align-items: center;
 
 color: #0051D5;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Background */
+/_ Background _/
 
 width: 624px;
 height: 6px;
@@ -5180,14 +4727,13 @@ height: 6px;
 background: #EAEDFF;
 border-radius: 9999px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Background */
+/_ Background _/
 
 position: absolute;
 left: 0%;
@@ -5198,10 +4744,9 @@ bottom: 0px;
 background: #0051D5;
 border-radius: 9999px;
 
+/_ Visual Anchor / Internship Team Hint _/
 
-/* Visual Anchor / Internship Team Hint */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -5217,10 +4762,9 @@ top: 1450px;
 background: rgba(226, 231, 255, 0.6);
 border-radius: 12px;
 
+/_ Background _/
 
-/* Background */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -5233,15 +4777,14 @@ height: 40px;
 background: #0037B0;
 border-radius: 9999px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5250,29 +4793,26 @@ padding: 0px;
 width: 16.67px;
 height: 13.33px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 16.67px;
 height: 13.33px;
 
 background: #FFFFFF;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5281,16 +4821,14 @@ padding: 0px;
 width: 600px;
 height: 36px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 1;
 
+/_ Heading 4 _/
 
-/* Heading 4 */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5299,15 +4837,13 @@ padding: 0px;
 width: 600px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Direct Academic Supervision */
+/_ Direct Academic Supervision _/
 
 width: 600px;
 height: 20px;
@@ -5317,23 +4853,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5342,15 +4876,13 @@ padding: 0px;
 width: 600px;
 height: 16px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Field mentors will automatically review intern submissions based on your criteria. */
+/_ Field mentors will automatically review intern submissions based on your criteria. _/
 
 width: 600px;
 height: 16px;
@@ -5360,23 +4892,21 @@ font-style: normal;
 font-weight: 500;
 font-size: 11px;
 line-height: 16px;
-/* identical to box height, or 145% */
+/_ identical to box height, or 145% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
+/_ Footer - Sticky Bottom Action Bar:margin _/
 
-/* Footer - Sticky Bottom Action Bar:margin */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5388,11 +4918,9 @@ left: 0px;
 right: 0px;
 top: 1522px;
 
+/_ Footer - Sticky Bottom Action Bar _/
 
-
-/* Footer - Sticky Bottom Action Bar */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5404,17 +4932,16 @@ height: 72px;
 
 background: rgba(255, 255, 255, 0.95);
 backdrop-filter: blur(24px);
-/* Note: backdrop-filter has minimal browser support */
+/_ Note: backdrop-filter has minimal browser support _/
 border-radius: 12px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 align-self: stretch;
 flex-grow: 0;
 
-
-/* Footer - Sticky Bottom Action Bar:shadow */
+/_ Footer - Sticky Bottom Action Bar:shadow _/
 
 position: absolute;
 left: 0px;
@@ -5426,16 +4953,15 @@ background: rgba(255, 255, 255, 0.002);
 box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.1), 0px 8px 10px -6px rgba(0, 0, 0, 0.1);
 border-radius: 12px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 z-index: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: space-between;
@@ -5446,18 +4972,16 @@ gap: 47.22px;
 width: 656px;
 height: 40px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 align-self: stretch;
 flex-grow: 0;
 z-index: 1;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -5467,16 +4991,14 @@ gap: 4px;
 width: 307.81px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5485,29 +5007,26 @@ padding: 0px;
 width: 15px;
 height: 15.04px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 15px;
 height: 15.04px;
 
 background: #747686;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: flex-start;
@@ -5516,14 +5035,12 @@ padding: 0px;
 width: 288.81px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 288.81px;
 height: 20px;
@@ -5533,22 +5050,20 @@ font-style: normal;
 font-weight: 400;
 font-size: 13px;
 line-height: 20px;
-/* identical to box height, or 154% */
+/_ identical to box height, or 154% _/
 display: flex;
 align-items: center;
 
 color: #434655;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -5558,16 +5073,14 @@ gap: 8px;
 width: 296.47px;
 height: 40px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 justify-content: center;
@@ -5580,13 +5093,12 @@ height: 40px;
 background: #F2F3FF;
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 116.27px;
 height: 20px;
@@ -5596,23 +5108,21 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #131B2E;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Button _/
 
-/* Button */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -5628,15 +5138,14 @@ background: #0037B0;
 box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
 border-radius: 8px;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -5645,29 +5154,26 @@ padding: 0px;
 width: 16.5px;
 height: 15px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
-
-/* Icon */
+/_ Icon _/
 
 width: 16.5px;
 height: 15px;
 
 background: #FFFFFF;
 
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
 
+/_ Container _/
 
-/* Container */
-
-/* Auto layout */
+/_ Auto layout _/
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -5676,14 +5182,12 @@ padding: 0px;
 width: 71.7px;
 height: 20px;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 1;
 flex-grow: 0;
 
-
-/* Text */
+/_ Text _/
 
 width: 71.7px;
 height: 20px;
@@ -5693,19 +5197,17 @@ font-style: normal;
 font-weight: 600;
 font-size: 14px;
 line-height: 20px;
-/* identical to box height, or 143% */
+/_ identical to box height, or 143% _/
 display: flex;
 align-items: center;
 text-align: center;
 
 color: #FFFFFF;
 
-
-/* Inside auto layout */
+/_ Inside auto layout _/
 flex: none;
 order: 0;
 flex-grow: 0;
-
 
 ---
 
@@ -5739,7 +5241,7 @@ I didn't edit `index.css`. It sets a narrow centered `#root` with a border, so I
 
 **User**
 
-@App.jsx (441-501) 
+@App.jsx (441-501)
 Implement the file attachment API request for this section.
 
 When the user selects a file through the attachment input, send a POST request to:
@@ -5751,6 +5253,7 @@ When the user selects a file through the attachment input, send a POST request t
 Use `FormData` with the field name `files`.
 
 **Important UI behavior:**
+
 - The preloaded files shown in the design, including their delete buttons, are for visual reference only. Do not display them initially.
 - When a user selects a file, display its upload progress using the same loading design shown in the reference.
 - Once the upload is complete, display the uploaded file using the same design, including the delete option.
@@ -5767,6 +5270,7 @@ Backtick escaping broke the constant; fixing it, plus a size formatter.
 The Attachments section now uploads files to `http://localhost:6060/api/v1/task-attachment`. Lint is clean and `vite build` succeeds. I haven't run it against your server or opened it in a browser, so none of it is tested.
 
 **How it works**
+
 - **Selecting files:** The dropzone is now clickable, keyboard-accessible and accepts drag-and-drop. It uses a hidden multi-file input.
 - **The request:** Each file goes out as its own POST, with a `FormData` field named `files`. That way every file gets its own progress, success and error state. I used `XMLHttpRequest` because `fetch` doesn't report upload progress.
 - **Initial state:** The preloaded sample files are gone, so the list starts empty.
@@ -5776,7 +5280,143 @@ The Attachments section now uploads files to `http://localhost:6060/api/v1/task-
 - **Cancel and remove:** Cancel aborts an upload in progress, and the X on a finished file removes it from the list.
 
 **Things to know**
+
 - The remove button only removes the file from the UI. You didn't give a delete endpoint, so nothing is sent to the server.
 - I don't use the response body beyond the error message. If the server returns a file ID or URL you'll need later, it's stored on each file as `response`.
 - I added the matching styles to the end of `App.css`.
 
+---
+
+**User**
+
+@App.jsx (578-661)
+Update the file upload progress bar to show real-time upload progress instead of jumping directly from 0% to 100%.
+Make the progress bar fill gradually and smoothly from 0% to 100%, like a normal file upload.
+Display the actual upload percentage continuously (e.g., 10%, 25%, 50%, 75%, 100%).
+Keep the current UI design unchanged.
+Ensure progress reflects the actual upload status, not a fake animation.
+
+---
+
+**Cursor**
+
+The upload bar now fills gradually instead of jumping from 0% to 100%, and the number counts up with it. Lint and `vite build` pass, but I haven't tested it against your server in a browser.
+
+**Why it jumped:** The upload was already reporting its real progress. On `localhost` a small file is sent in one chunk, so the browser reports almost nothing in between and the bar went straight from 0% to 100%.
+
+**What I changed**
+
+- **Easing:** I added a small `useSmoothProgress` hook and moved the file-row markup into a `FileItem` component, both in `App.jsx`. The bar and the "NN% Uploading" text ease toward the real progress from the upload and never run ahead of it.
+- **Completion:** The uploaded card only appears once the bar has visibly reached 100%. Before that, a finished upload keeps showing the loading row.
+- **Real values:** The target is still the real `xhr.upload.onprogress` value, held at 99% until the server responds, then 100%. Large files over a slow connection will show their true pace.
+- **Retry:** A retry starts again from 0%.
+- **Design:** The markup, classes and styles are the same as before.
+
+For tiny files on localhost there's only one real progress reading. The easing makes the bar visibly fill over a fraction of a second, but those intermediate values come from the easing, not from the browser. To see natural 10%, 25%, 50% steps, test with a larger file or throttle the network in DevTools.
+
+---
+
+**User**
+
+Implement the task submission using the /tasks API with the provided request payload structure.
+Get the attachments data from the response of /task-attachment.
+Persist form data locally so it survives page refreshes, closing the browser, or internet disconnection, and restore it when the user returns.
+Clear all form fields and saved data only after a successful API request.
+Remove all mock data currently displayed in the form. All fields should be empty when the page is first opened.
+Keep the existing UI design unchanged.
+
+---
+
+**Cursor**
+
+I can't implement the `/tasks` request yet because the payload structure didn't come through with your message. I searched the project, including `NOTES.md` and the saved chat file, and it isn't in any of them. I'd have to invent the field names, and the backend would probably reject a wrong guess.
+
+Please send these two things:
+
+1. **The `/tasks` request body.** A sample JSON works, or the Swagger schema. I need the exact field names and types for the title, description, dates, category, difficulty, status, internship ID, evaluation criteria and attachments.
+2. **A sample `/task-attachment` response.** I need to know what the server returns for an uploaded file (for example `id`, `url`, `fileName`, `size`), and whether it's an object or an array. The attachments in the `/tasks` payload will be built from that.
+
+Also confirm the endpoint. You wrote `/tasks` here, but your notes say `/task`. I'll use `http://localhost:6060/api/v1/tasks` unless you tell me otherwise.
+
+Once I have these, I'll:
+
+- Submit the form to `/tasks` with the attachment data from the upload responses.
+- Save the form and the uploaded-attachment data to `localStorage`, so it survives refreshes, closing the browser and going offline.
+- Restore it on load.
+- Clear the form and the saved data only after the API returns success.
+- Remove all the mock values so every field starts empty, with no mock defaults for the title, description, criteria or dates.
+- Leave the UI design as it is.
+
+---
+
+**User**
+
+The /tasks API request payload must follow this exact structure:
+{
+"internshipId": 12,
+"title": "string",
+"description": "string",
+"category": "string",
+"difficulty": "BEGINNER",
+"status": "TODO",
+"startDate": "2026-11-05",
+"deadline": "2026-11-05",
+"acceptedSubmissionTypes": [
+"URL"
+],
+"evaluationCriteria": [
+{
+"name": "string",
+"weight": 100
+}
+],
+"attachments": [
+{
+"fileName": "guide.pdf",
+"fileUrl": "string",
+"fileSize": 245000,
+"mimeType": "application/pdf"
+}
+]
+}
+
+Use this structure when submitting the form to /tasks.
+
+---
+
+**Cursor**
+
+The form now submits to `/tasks` with your payload structure, saves a local draft, and starts completely empty. Lint is clean and `vite build` succeeds, but I haven't run it against the API or in a browser.
+
+**Submission**
+
+- **Request:** It sends `POST {API_BASE_URL}/tasks` with a JSON body in the exact structure you gave. I kept the base URL that's now in the file, `https://create-task-api.onrender.com/api/v1`.
+- **Field mapping:**
+  - `internshipId` is sent as a number.
+  - `startDate` comes from the Start Date field.
+  - `evaluationCriteria` is built as `{ name, weight }` with numeric weights.
+  - `difficulty` is sent as `BEGINNER`, `INTERMEDIATE` or `ADVANCED`, and `status` as `TODO`, `IN_PROGRESS`, `REVIEW` or `DONE`.
+- **Attachments:** Each upload's `/task-attachment` response is turned into `{ fileName, fileUrl, fileSize, mimeType }` and sent in `attachments`. It accepts an object, an array, or one nested under `data`, `attachments` or `files`, and a plain-text URL. It fills in the name, size and type from the local file if the server leaves them out.
+- **Validation:** Before sending, it checks that:
+  - the required fields are filled;
+  - the deadline is not before the start date;
+  - every criterion has a name and a weight;
+  - the weights total 100;
+  - no attachment is still uploading or failed.
+
+  Problems show the first message in the existing error banner and highlight the fields.
+
+- **Failures:** The button shows its loading state while the request runs. A server error or a network failure shows an error message and keeps all your data.
+
+**Saving and clearing**
+
+- **Saving:** The form, the criteria and the uploaded attachments are saved to `localStorage` on every change. A refresh, closing the browser or losing the connection doesn't lose them, and they're restored on load.
+- **Clearing:** Only after the API returns success does it clear the form, the files and the saved draft, then show the success banner.
+- **Empty start:** Every field starts empty, with no mock data. The dropdowns show blank, and there is one empty criterion row.
+- **In-flight uploads:** An upload that's in progress or failed when you leave can't be saved, because the browser can't store the file itself, so you'd need to re-select it.
+
+**Things to check**
+
+- **Submission types:** `acceptedSubmissionTypes` has no field in the form, so it's always `["URL"]`, as in your example. Change `ACCEPTED_SUBMISSION_TYPES` at the top of `App.jsx` if you need other values.
+- **Status and difficulty values:** Only `TODO` and `BEGINNER` appeared in your sample. The other enum values are my guesses, so check them against Swagger.
+- **Upload response:** If `/task-attachment` returns no file URL under any of the names above, the file shows "Server did not return a file URL". If that happens, send me a sample response and I'll adjust the mapping.
